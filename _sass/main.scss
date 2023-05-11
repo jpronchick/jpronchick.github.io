@@ -1,3 +1,29 @@
 .current {
-  color: green;
+  border-radius: 10px;
+  font-size: xx-large;
+  background-color: darkorchid;
+  color:white;
+  padding:4px;
+}
+
+.notCurrentLink{
+  border: 3px solid;
+  border-radius: 10px;
+  font-size: x-large;
+  padding:4px;
+}
+
+nav{
+  font-family: "Yu Gothic UI Semibold";
+  padding:20px;
+  background-color:lightgray;
+  border-radius: 30px;
+  a:link { text-decoration: none; } a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; } a:active { text-decoration: none; }
+}
+
+body{
+  background-image: url("../assets/images/backPaint.webp");
+  background-repeat: repeat;
+  background-color: #cccccc;
 }
